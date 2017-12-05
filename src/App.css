@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  margin: 15px auto;
+  border: 6px solid #718ca1;
+  box-shadow: 3px 2px 2px  #a4bfda;
+  width: 75%;
+  background: #f5fafd;
+  color: #000000;
+  font-weight: bold; }
+  @media screen and (max-width: 480px) {
+    .App {
+      width: 90%;
+      border: 3px solid #718ca1;
+      margin: none;
+      margin-top: 5px; } }
+
+.InContainer {
+  width: 75.5%;
+  height: 160px;
+  border: 4px solid #1111aa;
+  box-shadow: 3px 2px 2px #8888dd;
+  margin: 10px;
+  display: inline-block; }
+  @media screen and (max-width: 480px) {
+    .InContainer {
+      width: 90.5%;
+      border: 1px solid #1111aa; } }
+
+.In {
+  border: none;
+  width: 98%;
+  height: 152px;
+  padding: 3px;
+  resize: none;
+  background: #fdfdff; }
+  @media screen and (max-width: 480px) {
+    .In {
+      width: 96%; } }
+
+.Out {
+  border: 4px solid #aa2200;
+  box-shadow: 3px 2px 2px #cc5577;
+  background: #fffdfd;
+  width: 75%;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+  word-wrap: break-word;
+  padding: 5px;
+  text-align: left; }
+  @media screen and (max-width: 480px) {
+    .Out {
+      width: 85%;
+      border: 1px solid #aa2200; } }
+
+/*# sourceMappingURL=App.css.map */
